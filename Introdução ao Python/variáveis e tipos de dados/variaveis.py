@@ -27,7 +27,6 @@ print(tipo_juros)
 
 
 #Tipos de texto: strings (str):
-
 primeiro_nome = "André"
 
 print(primeiro_nome)
