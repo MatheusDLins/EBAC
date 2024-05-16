@@ -1,8 +1,8 @@
-#Definição
-#Armazenam valores lógicos:
+# Definição
+# Armazenam valores lógicos:
 
-#True (verdadeiro);
-#False (falso).
+# True (verdadeiro);
+# False (falso).
 
 verdadeiro = True
 print(verdadeiro)
@@ -10,7 +10,7 @@ print(verdadeiro)
 falso = False
 print(falso)
 
-#Tipo bool
+# Tipo bool
 print(type(True))
 
 '''
@@ -53,24 +53,24 @@ O conjunto de resultados de operações lógicas geralmente é resumido em uma t
 |   FALSE  |   TRUE   | | |   TRUE   | |   FALSE  | |   TRUE   |
 '''
 
-#Exemplo: Tabela da verdade do operador `|` (ou).
+# Exemplo: Tabela da verdade do operador `|` (ou).
 print(True | True)
 print(True | False)
 print(False | False)
 print(False | True)
 
-#Exemplo: Tabela da verdade do operador `&` (e).
+# Exemplo: Tabela da verdade do operador `&` (e).
 print(True & True)
 print(True & False)
 print(False & False)
 print(False & True)
 
-#Exemplo: Tabela da verdade do operador `not` (não).
+# Exemplo: Tabela da verdade do operador `not` (não).
 print(not True)
 print(not False)
 
-#conversão
-#Podemos converter tipos numéricos e *strings* para booleanos através do método nativo `bool`:
+# conversão
+# Podemos converter tipos numéricos e *strings* para booleanos através do método nativo `bool`:
 
 idade = 19
 tipo_sangue = 'O-'
