@@ -10,6 +10,8 @@ conteudo = None
 with open(file='./banco.csv', mode='r', encoding='utf8') as arquivo:
     conteudo = arquivo.read()
 
+#Os modos de leitura são: r: Abrir o arquivo para leitura (padrão).
+
 #print(conteudo)
 
 
