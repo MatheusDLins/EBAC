@@ -27,7 +27,7 @@ with open(file='./banco.csv', mode='r', encoding='utf8') as arquivo:
         # lê uma nova linha, se a linha não existir salva o valor None
         linha = arquivo.readline()
 
-# print(conteudo)
+print(conteudo[8])
 
 '''for linha in conteudo:
     print(linha)'''
@@ -43,10 +43,10 @@ with open(file='./banco.csv', mode='r', encoding='utf8') as arquivo:
         # quebra a string nas virgulas(ponto e virgula) e salva os resultados em uma lista
         linha_separada = linha.split(sep=';')
         idade = linha_separada[0]  # seleciona o primeiro elemento da lista
-        #idade = int(idade)  # converte o valor de string para integer (inteiro)
+        idade = str(idade)  # converte o valor de string para integer (inteiro)
         idades.append(idade)  # salva o valor na lista de idades
         # lê uma nova linha, se a linha não existir, salva o valor None
         linha = arquivo.readline()
 
 
-print(idades)
+#print(idades)
