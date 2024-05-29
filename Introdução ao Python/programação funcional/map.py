@@ -8,7 +8,7 @@ numeros = [1, 2, 3]
 
 numeros_ao_cubo = map(lambda num: num ** 3, numeros)
 
-print(list(numeros_ao_cubo))
+# print(list(numeros_ao_cubo))
 
 
 # **2.2. Função de alta ordem**
@@ -23,13 +23,13 @@ for email in emails:
     provedor = extrair_provedor_email(email)
     provedores.append(provedor)
 
-print(provedores)
+# print(provedores)
 
 provedores = map(extrair_provedor_email, emails)
-print(provedores)
+# print(provedores)
 
 provedores = list(map(extrair_provedor_email, emails))
-print(provedores)
+# print(provedores)
 
 provedores = map(lambda email: email.split(sep='@')[-1], emails)
 ...
@@ -49,4 +49,4 @@ def retorno(valor_inicial: float, taxa_juros: float, anos: int) -> float:
 
 
 cenarios = list(map(retorno, valores_iniciais, taxas_juros, anos))
-print(cenarios)
+# print(cenarios)
