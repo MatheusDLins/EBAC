@@ -1,5 +1,3 @@
-
-
 # **3.3. Manipulação**
 # - Manipular o erro com a estrutura `try-catch-finally-else`.
 
