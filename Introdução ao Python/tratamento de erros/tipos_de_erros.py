@@ -11,7 +11,7 @@ if idade > 18
 
 #Erros de uso incorreto de tipos de dados.
 
-print(1/0)
+#print(1/0)
 
 #Erros de lógica
 
