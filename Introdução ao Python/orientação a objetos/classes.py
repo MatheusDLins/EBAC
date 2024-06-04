@@ -45,6 +45,10 @@ class Pessoa(object):
     def falar(self, texto: str) -> None:
         print(texto)
 
+    #__str__ mostra o que ira aparecer ao printar o objeto
     def __str__ (self) -> str:
         return f'{self.nome}, {self.idade} anos e documento numero {self.documento}'
 
+'''matheus = Pessoa(nome='Matheus Duarte', idade=30, documento='123.123.123-42')
+
+matheus.falar("olá")'''
