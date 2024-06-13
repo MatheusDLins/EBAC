@@ -1,21 +1,22 @@
-#pip install wget==3.2
+# pip install wget==3.2
 
+import pandas as pd
+import os
+import zipfile
 import wget
 
-wget.download(url='https://archive.ics.uci.edu/ml/machine-learning-databases/00312/dow_jones_index.zip', out='./dados.zip')
+wget.download(
+    url='https://archive.ics.uci.edu/ml/machine-learning-databases/00312/dow_jones_index.zip', out='./dados.zip')
 
-import zipfile
 
 with zipfile.ZipFile('./dados.zip', 'r') as fp:
-  fp.extractall('./dados')
+    fp.extractall('./dados')
 
-import os
 
 os.rename('./dados/dow_jones_index.data', './dados/dow_jones_index.csv')
 
 #!pip install pandas==1.1.5
 
-import pandas as pd
 
 df = pd.read_csv('./dados/dow_jones_index.csv')
 
@@ -37,9 +38,9 @@ df_mcd.head(n=10)
 df_mcd.dtypes
 
 for col in ['open', 'high', 'low', 'close']:
-  df_mcd[col] = df_mcd[col].apply(lambda value: float(value.split(sep='$')[-1]))
+    df_mcd[col] = df_mcd[col].apply(
+        lambda value: float(value.split(sep='$')[-1]))
 
 df_mcd.head(n=10)
 
 df_mcd.dtypes
-
