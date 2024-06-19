@@ -1,0 +1,17 @@
+#Logs
+
+##ver o histórico de commits
+- git log 
+
+#ver os ultimos x commits feitos:
+- git log -n 2
+
+#versão mais resumida do comando git log
+- git log --oneline
+
+#ver o conteudo que foi alterado
+- git log --stat
+
+#podemos juntar comandos como:
+- git log -n 3 --oneline
+
