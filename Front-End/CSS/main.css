@@ -4,18 +4,26 @@
     margin: 0;
 }
 
-h1{
-    color: green;
+header li{
+    display: inline;
 }
 
-h2{
-    color: green;
+.container{
+    width: 1366px;
+    margin: 0 auto;
 }
 
-#economy h2{
-    color: gold;
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.creation-date{
-    color: #ccc;
+.articles article img{
+    height: 180px;
 }
+
+.articles article {
+    width: 30%;
+}
+
