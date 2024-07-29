@@ -4,8 +4,24 @@
     margin: 0;
 }
 
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header li{
     display: inline;
+}
+
+header li a{
+    color: #f5f6fa;
 }
 
 .container{
@@ -27,3 +43,24 @@ header li{
     width: 30%;
 }
 
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+
+}
