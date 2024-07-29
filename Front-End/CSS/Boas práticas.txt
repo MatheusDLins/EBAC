@@ -1,0 +1,14 @@
+Seletor de elemento: 
+Seleciona elementos HTML com base em seus nomes de tag. Por exemplo, o seletor p seleciona todos os parágrafos em um documento HTML. 
+
+Seletor de classe: 
+Seleciona elementos que possuem um atributo class específico. É representado por um ponto (.) seguido do nome da classe. Por exemplo, o seletor .destaque seleciona todos os elementos com a classe "destaque". 
+
+Seletor de ID: 
+Seleciona um elemento com um ID específico. É representado por um hash (#) seguido do nome do ID. Por exemplo, o seletor #header seleciona o elemento com o ID "header".
+
+Seletor de descendente: 
+Seleciona elementos filhos que estão aninhados dentro de outros elementos. É representado pelo espaço entre os seletores. Por exemplo, o seletor div p seleciona todos os parágrafos que são descendentes diretos de um elemento div. 
+
+Seletor de filho direto: 
+Seleciona elementos filhos diretos de um elemento pai. É representado pelo sinal de maior (>). Por exemplo, o seletor ul > li seleciona todos os elementos li que são filhos diretos de um elemento ul.

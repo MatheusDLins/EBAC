@@ -1,0 +1,17 @@
+Propriedade:
+São usadas para definir estilos e aparência dos elementos HTML em uma página da web. As propriedades do CSS controlam aspectos como cores, fontes, tamanhos, posicionamento e muito mais.
+
+Seletor:
+É uma parte da sintaxe usada para selecionar e estilizar elementos HTML específicos em uma página da web. Os seletores permitem direcionar e aplicar regras de estilo aos elementos desejados.
+
+Valores:
+São utilizados para definir os diferentes aspectos visuais e comportamentais dos elementos HTML em uma página da web. As propriedades CSS podem receber diferentes valores para controlar o estilo e o layout dos elementos.
+
+# (hash)
+É usado para se referir a um seletor de ID. Um ID é um atributo único aplicado a um elemento HTML e é usado para identificar um elemento específico em um documento HTML. O seletor de ID é representado pelo sinal de hash (#) seguido do nome do ID. 
+
+* (asterisco) 
+É usado como um seletor universal, selecionando todos os elementos HTML em um documento. Pode ser usado para aplicar estilos a todos os elementos de uma página ou como parte de seletores mais específicos. 
+
+Classes
+É um atributo usado para identificar um ou mais elementos HTML e aplicar estilos específicos a eles. A classe permite agrupar elementos que têm características semelhantes e estilizá-los de maneira consistente. As classes começam com ponto, por exemplo: .titulo
