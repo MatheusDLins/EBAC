@@ -1,5 +1,9 @@
 $(document).ready(function(){
-    console.log(document.querySelector('header button'));
-    console.log($('#botao-cancelar'));
-    
+    $('header button').click(function(){
+        alert("Expandir")
+    })
+
+    $('form').on('submit',function(e){
+        e.preventDefault();
+    })
 })
