@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     background-color: #5f27cd;
     padding: 16px 0;
     color: #fff;
@@ -16,27 +16,27 @@ header{
     font-style: italic;
 }
 
-header button{
+header button {
     margin-left: 16px;
 }
 
-form{
+form {
     background-color: #c8d6e5;
     padding: 24px 0;
     text-align: center;
     display: none;
 }
 
-form h2{
+form h2 {
     margin-bottom: 16px;
 }
 
 input,
-button{
+button {
     padding: 8px;
 }
 
-button{
+button {
     background-color: #009432;
     border: none;
     font-weight: bold;
@@ -45,6 +45,45 @@ button{
     cursor: pointer;
 }
 
-#botao-cancelar{
+#botao-cancelar {
     background-color: red;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+ul li img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.overlay-imagem-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.overlay-imagem-link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link{
+    opacity: 1;
 }
