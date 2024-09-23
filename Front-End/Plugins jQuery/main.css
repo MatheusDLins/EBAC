@@ -113,7 +113,12 @@ section h2{
     border-radius: 16px;
 }
 
-.lista-veiculos li strong{
+.price{
     margin: 16px 0;
     display: block;
+}
+
+.price del{
+    color: #ccc;
+    font-size: 14px;
 }
