@@ -1,0 +1,17 @@
+h1, p{
+    font-size: 200%;
+}
+
+section{
+    font-size: 32px;
+}
+
+div{
+    height: 1em;
+    width: 100%;
+    background-color: red;
+}
+
+body{
+    width: 400px;
+}
