@@ -1,0 +1,7 @@
+div{
+    background-image: url("https://cdn.pixabay.com/photo/2025/05/01/16/21/insect-9571817_1280.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
